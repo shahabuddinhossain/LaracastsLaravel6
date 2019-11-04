@@ -64,7 +64,7 @@
     </style>
 </head>
 <body>
-    <h1>Task Completed</h1>
+    <h1>My blog Post</h1>
     <h2> !! {{$post}} !!</h2>
 </body>
 </html>

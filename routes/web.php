@@ -22,7 +22,13 @@ Route::get('/test', function () {
 });
 
 Route::get('/posts/{post}', function ($post) {
+
+    $posts = [
+        'my-first-post'  => 'Hello! this is my first post!',
+        'my-second-post' => 'Hello! this is my second post!',
+    ];
+
     return view('post', [
-        'post'=>$post
+        'post'=>$posts[$post]
     ]);
 });

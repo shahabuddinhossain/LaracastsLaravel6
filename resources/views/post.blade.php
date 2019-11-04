@@ -65,6 +65,6 @@
 </head>
 <body>
     <h1>Task Completed</h1>
-    <h2> {{$name}} </h2>
+    <h2> POST {{$post}} </h2>
 </body>
 </html>

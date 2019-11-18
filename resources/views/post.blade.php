@@ -65,6 +65,6 @@
 </head>
 <body>
     <h1>My blog Post</h1>
-    <h2> !! {{$post}} !!</h2>
+    <h2> !! {{$post->body}} !!</h2>
 </body>
 </html>

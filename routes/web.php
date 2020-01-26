@@ -22,3 +22,11 @@ Route::get('/test', function () {
 });
 
 Route::get('/posts/{post}','PostsController@show');
+
+Route::get('/welcome', function() {
+    return view('welcome');
+});
+
+Route::get('/contact', function() {
+    return view('contact');
+});
